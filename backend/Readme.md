@@ -71,3 +71,39 @@ http://localhost:8080
 ### Step 5: Keep the Application Running
 
 To keep the application running in the background, you can use nohup or a similar method. 
+
+### History 
+```bash
+git clone https://github.com/mukundDeo9325/student_app1.git
+    2  ls
+    3  cd student_app1/
+    4  ls
+    5  cd backend/
+    6  ls
+    7  apt install mysql-client -y
+   10  mysql -h database-1.ch22ygm442ex.ap-south-1.rds.amazonaws.com -u admin -p
+   11  ls
+   12  java -version
+   13  apt update && apt install openjdk-17-jdk -y
+   14  java -version
+   15  apt install maven -y
+   16  ls
+   17  cd student_app1/
+   18  ls
+   19  cd backend/
+   20  ls
+   21  apt install maven -y
+   22  mvn -version
+   23  ls
+   24  vim src/main/resources/application.properties 
+   25  ls
+   26  mvn clean package
+   27  lz
+   28  ls
+   29  cd target/
+   30  ls
+   31  java -jar student-registration-backend-0.0.1-SNAPSHOT.jar
+```
+
+
+
