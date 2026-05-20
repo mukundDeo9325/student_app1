@@ -41,7 +41,7 @@ mvn -version
 ### Update DB credentials in application.properties:
 
 ```shell
-vim backend/src/main/resources/application.properties
+vim src/main/resources/application.properties
 
    server.port=8080
    spring.datasource.url=jdbc:mariadb://<DB_HOST>:3306/<DB_NAME>
